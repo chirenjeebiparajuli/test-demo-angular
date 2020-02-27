@@ -1,0 +1,16 @@
+.example-card {
+  max-width: 400px;
+      margin-top: 435px
+}
+
+.mat-card-image {
+  width: 300px
+}
+
+.mat-grid-tile {
+  overflow: initial;
+}
+
+.mat-card::hover {
+  cursor: pointer;
+}

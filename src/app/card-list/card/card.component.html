@@ -1,0 +1,19 @@
+<mat-grid-list cols="3" rowHeight="3:1">
+  <mat-grid-tile >
+    <mat-card *ngFor="let card of cards" class="example-card" (click)="showProfile(card)">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>{{card.name.title}} {{card.name.first}} {{card.name.last}}</mat-card-title>
+  
+  </mat-card-header>
+  <img mat-card-image [src]="card.picture.large" alt="Photo of a Shiba Inu">
+  <mat-card-content>
+    <p>
+    
+    </p>
+  </mat-card-content>
+ 
+</mat-card>
+  </mat-grid-tile>
+ 
+</mat-grid-list>

@@ -1,0 +1,7 @@
+ <mat-form-field class="example-full-width">
+    <mat-label>Number of profiles</mat-label>
+    <input matInput placeholder="Number of profiles" value="" [(ngModel)]="numberOfProfiles">
+  </mat-form-field>
+  <button mat-raised-button color="primary" (click)="getProfiles()">Primary</button>
+
+  <card [cards]="cardList"></card>
